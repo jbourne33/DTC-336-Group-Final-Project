@@ -1,0 +1,70 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("img/background.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#wrapper {
+	height: 100%;
+	width: 75%;
+	position: fixed;
+	display: none;
+}
+
+#main {
+	top: 10%;
+	left: 18%;
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+
+.firefly-image {
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 81px;
+	position: absolute;
+}/* to change image, change url and adjust width and height to match image*/
+
+#music1 {
+	top: 8%;
+	right: 75%;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	background-image: url("img/cowbell.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	z-index: 99;
+}
+
+#music2 {
+	top: 55%;
+	left: 20%;
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	background-image: url("img/piano.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	z-index: 99;
+}
+
+#music3 {
+	top: 15%;
+	left: 50%;
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	background-image: url("img/trumpet.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	z-index: 99;
+}
+
